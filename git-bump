@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ -z "$1" ]
+  then
+    git commit -m 'bump: ' -e
+  else
+    git commit -m "bump: $1"
+fi
